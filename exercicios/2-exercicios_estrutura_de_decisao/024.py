@@ -5,11 +5,10 @@ a) par ou ímpar;
 b) positivo ou negativo;
 c) inteiro ou decimal.
 """
-import sys
-
 num1 = float(input("Informe um número: "))
 num2 = float(input("Informe um segundo número: "))
 operacao = input("Qual operação deseja realizar? (+, -, * ou /)")
+valido = True
 
 match operacao:
     
@@ -23,29 +22,29 @@ match operacao:
         resultado = num1 / num2
     case _:
         print("Operação inválida.")
-        sys.exit()
+        valido = False
 
+if valido:
 
-print(f"O resultado da operação de {num1} {operacao} {num2} é {resultado}")
+    print(f"O resultado da operação de {num1} {operacao} {num2} é {resultado}")
+            
+    restoDivisao = resultado % 2
+
+    if restoDivisao == 0:
+        print("O número é par!")
+    else:
+        print("O número é ímpar!")
+
+    arredondado = round(resultado)
+
+    if arredondado == resultado:
+        print("O número é inteiro! ")
+    else:
+        print("O número é decimal! ")
         
-restoDivisao = resultado % 2
-
-if restoDivisao == 0:
-    print("O número é par!")
-else:
-    print("O número é ímpar!")
-
-arredondado = round(resultado)
-
-if arredondado == resultado:
-    print("O número é inteiro! ")
-
-else:
-    print("O número é decimal! ")
-    
-if resultado > 0:
-    print("O número é positivo.")
-elif resultado < 0:
-    print("O número é negativo.")
-else:
-    print("O número é zero.")
+    if resultado > 0:
+        print("O número é positivo.")
+    elif resultado < 0:
+        print("O número é negativo.")
+    else:
+        print("O número é zero.")
