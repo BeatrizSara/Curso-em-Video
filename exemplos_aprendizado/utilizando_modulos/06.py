@@ -7,5 +7,5 @@ import pygame
 pygame.init() 
 pygame.mixer.music.load("exer06.mp3")
 pygame.mixer.music.play()
-input()
+input("Aperte Enter para parar a música: ")
 pygame.event.wait()
