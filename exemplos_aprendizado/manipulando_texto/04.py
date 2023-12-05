@@ -1,5 +1,7 @@
 """ 
-Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "SANTO"
+Crie um programa que leia o nome de uma pessoa e diga se ela tem "Silva" no nome
 """
-cid = str(input("Qual cidade você nasceu? "))
-print(cid[:5].upper() == "SANTO")
+# in - não é método. É um operador!
+
+nome = str(input("Informe seu nome completo: ")).strip()
+print(f"Seu nome tem Silva? {"SILVA" in nome.upper()}")
