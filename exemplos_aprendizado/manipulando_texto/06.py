@@ -4,13 +4,6 @@ Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o
 Ex: Ana Maria de Souza
 primeiro = Ana
 último = Souza
-
-ESDRAS RAFAEL DA ROCHA
-nome = ["ESDRAS", "RAFAEL", "DA", "ROCHA"] 
-quantidadePalavras = len(nome)
-print(nome[quantidadePalavras - 1])
-
-
 """
 n = str(input("Informe seu nome completo: ")).strip()
 nome = n.split()
