@@ -1,3 +1,3 @@
 """ 
-Analisando de Triângulos
+Analisando Triângulos
 """
