@@ -8,9 +8,6 @@ Escreva um programa que leia dois números inteiros e compáre-os, mostrando na 
 num_1 = int(input("Informe o primeiro número inteiro: "))
 num_2 = int(input("Informe o segundo número inteiro: "))
 
-lista = [num_1,num_2]
-lista.sort()
-
 if num_1 > num_2:
     print(f"O primeiro número é maior")
     
