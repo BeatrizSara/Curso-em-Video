@@ -14,4 +14,4 @@ if num_1 > num_2:
 elif num_1 < num_2:
     print(f"O segundo número é maior")
 else:
-    print(f"Os números {num_1} e {num_2} são iguais! Não existe valor maior.")
+    print(f"Os números {num_1} e {num_2} são iguais! Não existe valor maior")
