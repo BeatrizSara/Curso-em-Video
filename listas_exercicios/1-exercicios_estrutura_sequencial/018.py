@@ -18,5 +18,4 @@ tempo_segundos = arquivo_download / velocidade_internet
 tempo_minutos = tempo_segundos / 60
 
 
-print(f"O tempo aproximado para download: {
-      tempo_minutos: .0f} minutos e {tempo_segundos: .0f} segundos")
+print(f"O tempo aproximado para download: {tempo_minutos: .0f} minutos e {tempo_segundos: .0f} segundos")
