@@ -6,4 +6,4 @@ se já passou do tempo do alistamento.
 Seu programa também deverá mostrar :
 o tempo que FALTA ou que PASSOU do prazo
 """
-ano = int(input("Qual o ano de nascimento: ")) 
+ano = int(input("Qual o ano de nascimento: "))
