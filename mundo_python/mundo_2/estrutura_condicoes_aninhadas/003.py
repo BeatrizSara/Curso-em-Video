@@ -10,7 +10,6 @@ num_2 = int(input("Informe o segundo número inteiro: "))
 
 if num_1 > num_2:
     print(f"O primeiro número é maior")
-
 elif num_1 < num_2:
     print(f"O segundo número é maior")
 else:
