@@ -11,10 +11,15 @@ from datetime import date
 atual = date.today().year
 ano = int(input("Qual o ano de nascimento: "))
 idade = atual - ano
-print("Nascimento no ano {} tem {} anos").format(ano,idade,atual)
+print("Nascimento no ano {} tem {} anos".format(ano,idade,atual))
 
 if idade == 18:
     print("Já possui a idade obrigatória para o alistamento")
 
 elif idade < 18:
-    print("Ainda não possui a idade para se alistar")
+    saldo = 18 - idade 
+    print(f"Ainda não possui a idade para se alistar. Falta {saldo} anos")
+
+else:
+    saldo = idade - 18
+    print(f"Sua idade já passou da idade obrigatória para se alistar. Deveria ter se alistado a {saldo} anos")
