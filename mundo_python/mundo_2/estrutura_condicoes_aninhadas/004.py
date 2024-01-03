@@ -9,17 +9,21 @@ o tempo que FALTA ou que PASSOU do prazo
 from datetime import date
 
 atual = date.today().year
-ano = int(input("Qual o ano de nascimento: "))
-idade = atual - ano
-print("Nascimento no ano {} tem {} anos".format(ano,idade,atual))
+nascimento = int(input("Qual o ano de nascimento: "))
+idade = atual - nascimento
+print("Nascimento no ano {} tem {} anos".format(nascimento,idade,atual))
 
 if idade == 18:
     print("Já possui a idade obrigatória para o alistamento")
 
 elif idade < 18:
     saldo = 18 - idade 
+    ano_alistamento = atual + saldo
     print(f"Ainda não possui a idade para se alistar. Falta {saldo} anos")
+    print(f"Seu alistamento será em {ano_alistamento}")
 
 else:
     saldo = idade - 18
+    ano_alistamento = atual - saldo
     print(f"Sua idade já passou da idade obrigatória para se alistar. Deveria ter se alistado a {saldo} anos")
+    print(f"Seu alistamento foi em {ano_alistamento}")
