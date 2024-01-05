@@ -17,7 +17,7 @@ if prestacao_mensal <= limite:
     print("Empréstimo APROVADO!")
     print(f"Para pagar uma casa de R${valor_casa:.2f} \nA prestação será de R$ {prestacao_mensal:.2f}")
  
-    
+
 else:
     print("Empréstimo NEGADO!")
     
