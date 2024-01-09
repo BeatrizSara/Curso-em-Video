@@ -1,7 +1,7 @@
 """
-    Faça um programa usando while que print a tabuada do número solicitado.
-    Dicas:  Use while
-            Use uma variavel que servira de contador e incrementara ela mesma a cada execução do while
+Faça um programa usando while que print a tabuada do número solicitado.
+Dicas:  Use while
+Use uma variavel que servira de contador e incrementara ela mesma a cada execução do while
 """
 
 tabuada = int(input("Digite um numero para tabuada: "))
