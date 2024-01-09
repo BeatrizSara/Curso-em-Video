@@ -1,5 +1,5 @@
 """ 
-Classico da Média
+Classico da Média - 040
 Crie um programa que calcule as duas notas de um aluno e calcule sua média,
 mostrando uma mensagem final, de acordo com a média atingida:
 - Média abaixo de 5.0 : Reprovado
