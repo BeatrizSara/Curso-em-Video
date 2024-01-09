@@ -17,8 +17,10 @@ if lado_b + lado_c > lado_a and lado_a + lado_c > lado_b and lado_a + lado_b > l
     
     if lado_a == lado_b == lado_c:
         print(" => EQUILÁTERO")
-    
-    elif lado_a != lado_b != lado_c:
+        
+    # elif lado_a != lado_b != lado_c: (obs: lado a pode ser igual a lado c)
+    # Por isso lado a tem que ser != de lado b e c. Se não, o else não vai como ISOSCELES
+    elif lado_a != lado_b != lado_c != lado_a:
         print("=> ESCALENO")
     
     else:
