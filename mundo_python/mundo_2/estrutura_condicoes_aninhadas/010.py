@@ -1,4 +1,4 @@
 """ 
-Pedra, Papel e Tesoura - 045
+GAME - Pedra, Papel e Tesoura - 045
 
 """
