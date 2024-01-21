@@ -1,5 +1,5 @@
 """ 
-GAME - Pedra, Papel e Tesoura - 045 
+GAME - Pedra, Papel e Tesoura - 045
 Vitoria - Empate - Derrota
 Crie um programa que faça o computador jogar Jokenpô com você.
 mundo 1 - utilizando modulos - utiliza random
