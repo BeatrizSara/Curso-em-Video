@@ -6,6 +6,7 @@ mundo 1 - utilizando modulos - utiliza random
 o computador vai randomizar numero inteiro entre 0 e 2, pedra, papel, tesoura por isso item[computador]
 Jo ken pô - com time de 1 segundo - importar biblioteca
 """
+
 #Deve-se importar a classe Randon 
 from random import randint
 from time import sleep 
