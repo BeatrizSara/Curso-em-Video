@@ -22,6 +22,6 @@ elif escolha == 2:
     
 elif escolha == 3:
     print("{} convertido para HEXADECIMAL será igual a {}".format(num, hex(num)[2:]))
-        
+
 else:
     print("Opção Inválida. Deve-se informar apenas as opções solicitadas acima. Tente novamente")
