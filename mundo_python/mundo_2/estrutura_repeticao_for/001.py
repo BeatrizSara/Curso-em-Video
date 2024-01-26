@@ -1,5 +1,6 @@
 """ 
 Exercicio 46
+Contagem Regressiva
 Faça um programa que msotre na tela uma contagem regressiva para o estouro de fogos de artificio,
 indo de 10 até 0, com uma pausa de 1 ou 0.5 segundo entre eles
 meio segundo - sleep(0.5)
