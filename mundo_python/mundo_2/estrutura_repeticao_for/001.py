@@ -5,6 +5,7 @@ Faça um programa que msotre na tela uma contagem regressiva para o estouro de f
 indo de 10 até 0, com uma pausa de 1 ou 0.5 segundo entre eles
 meio segundo - sleep(0.5)
 """
+
 from time import sleep
 
 print("INICIANDO")
