@@ -1,5 +1,5 @@
 """ 
-Exercicio 46
+Exercicio 046
 Contagem Regressiva
 Faça um programa que msotre na tela uma contagem regressiva para o estouro de fogos de artificio,
 indo de 10 até 0, com uma pausa de 1 ou 0.5 segundo entre eles
@@ -17,4 +17,4 @@ for contagem in range(10, -1, -1):
     sleep(0.5)
     print(contagem)
 sleep(1)
-print("🎇  🎇  🎇 HAPPY NEW YEAR  🎇  🎇  🎇 ")
+print("🎇  🎇  🎇 HAPPY NEW YEAR  🎇  🎇  🎇")
