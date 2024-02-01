@@ -4,7 +4,6 @@ que são múltiplos de três e que
 se encontram no intervalo de 1 até 500.
 Soma dos numeros
 Contador de quantos numeros tem dentro de 1 a 500 que sao multiplos de 3
-
 """
 
 numeros_impares = []
