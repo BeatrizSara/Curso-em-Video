@@ -17,4 +17,3 @@ print("\033[0;33;44mOlá, Mundo!\033[m")
 print("\033[7;37mOlá, Mundo!\033[m")
 print("\033[7;30;41mOlá, Mundo!\033[m")
 print("\033[0;30;41mOlá, Mundo!\033[m")
-
