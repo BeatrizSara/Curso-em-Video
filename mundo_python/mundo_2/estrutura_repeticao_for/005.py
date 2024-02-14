@@ -6,9 +6,10 @@ Se o valor digitado for impar, desconsidere-o.
 """
 soma = 0 
 contador = 0
+lista = range(1, 7)
 
-for par in range(1, 7):
-        num = int(input("Informe o {} valor: ".format(par)))
+for item in lista:
+        num = int(input("Informe o {} valor: ".format(item)))
         if num % 2 == 0:
             soma += num
             contador += 1
