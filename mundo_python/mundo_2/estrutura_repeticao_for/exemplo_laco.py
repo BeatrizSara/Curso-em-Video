@@ -23,7 +23,7 @@ while True:
         return f'\033[38;2;{r};{g};{b}m'
 
     # Exemplo de uso com cor aleatória
-    texto = 'BEATRIZ!'
+    texto = 'BEATRIZ SARA!'
     cor = cor_aleatoria()
 
     print(cor + texto + Style.RESET_ALL)
