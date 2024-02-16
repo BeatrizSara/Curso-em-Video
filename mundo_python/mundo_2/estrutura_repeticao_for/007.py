@@ -6,4 +6,4 @@ Faça um programa que leia um numero inteiro e diga se ele é ou nao um número 
 """
 num = int(input("Número inteiro:"))
 # if num > 1
-for c in range()
+#for c in range()
