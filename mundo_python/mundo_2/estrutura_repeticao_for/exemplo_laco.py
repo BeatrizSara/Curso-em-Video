@@ -17,6 +17,7 @@ from colorama import init, Fore, Style
 init()
 
 while True:
+    
     # Gera uma cor RGB aleatória
     def cor_aleatoria():
         r = random.randint(0, 255)
