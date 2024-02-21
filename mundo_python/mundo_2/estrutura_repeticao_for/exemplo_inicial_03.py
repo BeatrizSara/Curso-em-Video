@@ -7,7 +7,7 @@ print("FIM")
 
 # Outro exemplo 
 n  = int(input("Informe um número: "))
-         
+
 for c in range(0, n):
     print(c)
 print("fim")
