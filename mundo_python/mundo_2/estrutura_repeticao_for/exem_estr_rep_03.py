@@ -1,4 +1,3 @@
-
 # Realizar um somatorio desses números
 # s += n é a mesma coisa que s = s + n
 
