@@ -7,8 +7,7 @@ O ultimo ele ignora se for (1, 6)conta apenas até o 5
 (6,0, -1) -1 contagem de cimma para baixo
 (0, 7, 2) - 2 significa que vai pular de 2 em dois
 range(0, n+1)  como parte de passagem para o FOR
-Ex:
-"Digite um número: 3
+Ex: "Digite um número: 3
 0 
 1
 2
