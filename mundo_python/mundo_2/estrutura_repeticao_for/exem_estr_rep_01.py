@@ -18,6 +18,7 @@ FIM
 # Passo significa de quanto em quanto o numero informado vai pular.
 # Se for: inicio 1, fim 100 e passo 10, vai contar de  10 em 10 - 1 11 21 31 41 51.. 100
 #Pode-se utilizar da estrutura de repetição para fazer o que voce quiser
+
 i = int(input("Início: "))
 f = int(input("Fim: "))
 p = int(input("Passo: "))
