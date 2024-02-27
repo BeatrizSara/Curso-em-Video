@@ -17,4 +17,4 @@ print("Os numeros pares que estão entre 1 a 50 são:\n{}".format(numeros_pares)
 
 # for numero in range(2, 51, 2)
 #     print(n, end=" ")
-#print("Acabou")
+# print("Acabou")
