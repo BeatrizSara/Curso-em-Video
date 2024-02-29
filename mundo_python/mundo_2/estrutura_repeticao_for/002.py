@@ -1,7 +1,8 @@
 """ 
 Exercicio 047
 Contagem de Pares
-Crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50.
+Crie um programa que mostre na tela todos os números pares 
+que estão no intervalo entre 1 e 50.
 """
 numeros_pares = []
 
