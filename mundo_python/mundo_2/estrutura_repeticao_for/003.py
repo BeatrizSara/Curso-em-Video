@@ -2,8 +2,7 @@
 Exercicio 048
 Soma ímpares múltiplos de 3
 Faça um programa que calcule a soma entre todos os numeros impares ( nao é para somar todos), mas sim,
-que são múltiplos de três e que 
-se encontram no intervalo de 1 até 500.
+que são múltiplos de três e que se encontram no intervalo de 1 até 500.
 (Soma dos numeros)
 Contador de quantos numeros tem dentro de 1 a 500 que sao multiplos de 3)
 """
