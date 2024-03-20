@@ -6,7 +6,6 @@ print("FIM")
 
 #Utilizo o "n" como parte de passagem pro FOR
 # Posso usar essa mesma linha de raciocinio
-
 inicio = int(input("Inicio: "))
 fim = int(input("Fim: "))
 passo = int(input("Passo: "))
