@@ -1,3 +1,2 @@
-# exercicios_python
-Solve logic exercises present at wiki.python.org
-And exercicies for learny and pratice the python language.
+# Curso em Vídeo -   Gustavo Guanabara
+Curso do professor Gustavo Guanabara na linguagem Python, contendo exercícios práticos com lógica de programação.
